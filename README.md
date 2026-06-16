@@ -35,7 +35,7 @@ y_pred, sigma = gpr.predict(X_test, return_std=True)
 ### 2. Semi-Non-negative Matrix Factorization (Semi-NMF)
 - **Goal:** Unsupervised decomposition of CV datasets to identify optimal precursor ratios
 - **Input:** Cyclic Voltammetry current-potential matrices across synthesis configurations
-- **Outcome:** Identified optimal ratio — `10 wt% MnO₂ + 90 wt% NiFe₂O₄/CoMn₂O₄`
+- **Outcome:** Identified optimal ratio — `10 wt% MnO₂ + 90 wt% NiFe₂O₄/MnCo₂O₄`
 - **Stack:** `numpy`, `scipy`, `matplotlib`, `UMAP`
 
 ### 3. SHAP Explainability Pipeline
